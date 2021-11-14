@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
     <title>OT About us</title>
 
     <link href="style.css" rel="stylesheet">
@@ -71,8 +70,8 @@
                 <p>Ius ex luptatum deserunt principes, no vix verear utamur. Quodsi deseruisse nam ex, eum tation
                     detracto ex! Essent cetero iudicabit sit eu, est dicta dicit verear te!</p>
             </div>
-            <div class="col-sm-12 col-md-6 col-xl-4" data-toggle="modal" data-target="#mymodal_gallery">
-                <img src="img/about/about01.jpg" class="w-100" data-target="#indicators" data-slide-to="0"/>
+            <div class="col-sm-12 col-md-6 col-xl-4" data-bs-toggle="modal" data-bs-target="#mymodal_gallery">
+                <img src="img/about01.jpg" class="w-100" data-bs-target="#indicators" data-bs-slide-to="0" alt=""/>
             </div>
 
             <div class="col-sm-12 col-md-6 col-xl-4">
@@ -82,11 +81,11 @@
                     tamquam forensibus intellegebat, eu inani altera nam, cu vel vidit efficiantur! Suscipit
                     convenire assueverit his ea, diceret insolens senserit an est, soluta primis vocent eu vim.</p>
             </div>
-            <div class="col-sm-12 col-md-6 col-xl-4" data-toggle="modal" data-target="#mymodal_gallery">
-                <img src="img/about/about02.jpg" class="w-100" data-target="#indicators" data-slide-to="1"/>
+            <div class="col-sm-12 col-md-6 col-xl-4" data-bs-toggle="modal" data-bs-target="#mymodal_gallery">
+                <img src="img/about02.jpg" class="w-100" data-bs-target="#indicators" data-bs-slide-to="1" alt=""/>
             </div>
-            <div class="col-sm-12 col-md-6 col-xl-4" data-toggle="modal" data-target="#mymodal_gallery">
-                <img src="img/about/about03.jpg" class="w-100" data-target="#indicators" data-slide-to="2"/>
+            <div class="col-sm-12 col-md-6 col-xl-4" data-bs-toggle="modal" data-bs-target="#mymodal_gallery">
+                <img src="img/about03.jpg" class="w-100" data-bs-target="#indicators" data-bs-slide-to="2" alt=""/>
             </div>
 
             <div class="col-sm-12 col-md-6 col-xl-4">
@@ -97,8 +96,8 @@
                 <p>Ei brute dolorum vis, per stet aliquip id! Sea ex eirmod dissentiet! Eam ne quas delenit noluisse? Te
                     corpora gloriatur mediocritatem ius!</p>
             </div>
-            <div class="col-sm-12 col-md-6 col-xl-4" data-toggle="modal" data-target="#mymodal_gallery">
-                <img src="img/about/about04.jpg" class="w-100" data-target="#indicators" data-slide-to="3"/>
+            <div class="col-sm-12 col-md-6 col-xl-4" data-bs-toggle="modal" data-bs-target="#mymodal_gallery">
+                <img src="img/about04.jpg" class="w-100" data-bs-target="#indicators" data-bs-slide-to="3" alt=""/>
             </div>
 
             <div class="col-sm-12 col-md-6 col-xl-4">
@@ -108,11 +107,11 @@
                     percipit disputationi, mel an quod vitae periculis. Eligendi recteque repudiandae sed ei. Qui ridens
                     iriure appetere ad, ad oratio accusam mentitum qui.</p>
             </div>
-            <div class="col-sm-12 col-md-6 col-xl-4" data-toggle="modal" data-target="#mymodal_gallery">
-                <img src="img/about/about05.jpg" class="w-100" data-target="#indicators" data-slide-to="4"/>
+            <div class="col-sm-12 col-md-6 col-xl-4" data-bs-toggle="modal" data-bs-target="#mymodal_gallery">
+                <img src="img/about05.jpg" class="w-100" data-bs-target="#indicators" data-bs-slide-to="4" alt=""/>
             </div>
-            <div class="col-sm-12 col-md-6 col-xl-4" data-toggle="modal" data-target="#mymodal_gallery">
-                <img src="img/about/about06.jpg" class="w-100" data-target="#indicators" data-slide-to="5"/>
+            <div class="col-sm-12 col-md-6 col-xl-4" data-bs-toggle="modal" data-bs-target="#mymodal_gallery">
+                <img src="img/about06.jpg" class="w-100" data-bs-target="#indicators" data-bs-slide-to="5" alt=""/>
             </div>
 
             <div class="col-sm-12 col-md-6 col-xl-4">
@@ -123,62 +122,67 @@
                     argumentum nam, ei ius inani deseruisse. Ne essent aliquando sed. Forensibus posidonium no sea,
                     omnes invidunt cum te, sapientem appellantur te per? Elitr tibique in sea.</p>
             </div>
-            <div class="col-sm-12 col-md-6 col-xl-4" data-toggle="modal" data-target="#mymodal_gallery">
-                <img src="img/about/about07.jpg" class="w-100" data-target="#indicators" data-slide-to="6"/>
+            <div class="col-sm-12 col-md-6 col-xl-4" data-bs-toggle="modal" data-bs-target="#mymodal_gallery">
+                <img src="img/about07.jpg" class="w-100" data-bs-target="#indicators" data-bs-slide-to="6" alt=""/>
             </div>
         </div>
     </div>
 
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mymodal_gallery">
+        Launch demo modal
+    </button>
+
     <!-- MODAL -->
-    <div class="modal" id="mymodal_gallery" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal" id="mymodal_gallery" tabindex="-1" aria-labelledby="Galery" aria-hidden="true">
         <div class="vertical-alignment-helper">
             <div class="modal-dialog vertical-align-center">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <button type="button" class="btn-close float-end" data-dismiss="modal"
+                        <button type="button" class="btn-close float-end" data-bs-dismiss="modal"
                             aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <div id="indicators" class="carousel carousel-dark" data-ride="carousel" data-interval="false">
+                        <div id="indicators" class="carousel carousel-dark" data-bs-ride="carousel" data-bs-interval="false">
                             <ol class="carousel-indicators">
-                                <li data-target="#indicators" data-slide-to="0" class="active"></li>
-                                <li data-target="#indicators" data-slide-to="1"></li>
-                                <li data-target="#indicators" data-slide-to="2"></li>
-                                <li data-target="#indicators" data-slide-to="3"></li>
-                                <li data-target="#indicators" data-slide-to="4"></li>
-                                <li data-target="#indicators" data-slide-to="5"></li>
-                                <li data-target="#indicators" data-slide-to="6"></li>
+                                <li data-bs-target="#indicators" data-bs-slide-to="0" class="active"></li>
+                                <li data-bs-target="#indicators" data-bs-slide-to="1"></li>
+                                <li data-bs-target="#indicators" data-bs-slide-to="2"></li>
+                                <li data-bs-target="#indicators" data-bs-slide-to="3"></li>
+                                <li data-bs-target="#indicators" data-bs-slide-to="4"></li>
+                                <li data-bs-target="#indicators" data-bs-slide-to="5"></li>
+                                <li data-bs-target="#indicators" data-bs-slide-to="6"></li>
                             </ol>
 
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img class="d-block w-100" src="img/about/about15.jpg">
+                                    <img class="d-block w-100" src="img/about01.jpg" alt="">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/about/about02.jpg">
+                                    <img class="d-block w-100" src="img/about02.jpg" alt="">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/about/about03.jpg">
+                                    <img class="d-block w-100" src="img/about03.jpg" alt="">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/about/about04.jpg">
+                                    <img class="d-block w-100" src="img/about04.jpg" alt="">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/about/about05.jpg">
+                                    <img class="d-block w-100" src="img/about05.jpg" alt="">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/about/about06.jpg">
+                                    <img class="d-block w-100" src="img/about06.jpg" alt="">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/about/about07.jpg">
+                                    <img class="d-block w-100" src="img/about07.jpg" alt="">
                                 </div>
                             </div>
 
-                            <a class="carousel-control-prev" href="#indicators" role="button" data-slide="prev">
+                            <a class="carousel-control-prev" href="#indicators" role="button" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </a>
-                            <a class="carousel-control-next" href="#indicators" role="button" data-slide="next">
+                            <a class="carousel-control-next" href="#indicators" role="button" data-bs-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </a>
