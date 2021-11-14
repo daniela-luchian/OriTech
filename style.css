@@ -94,3 +94,13 @@ and centers the content*/
   padding-top: 20px;
   padding-bottom: 0px;
 }
+
+
+.link {
+  text-decoration: none;
+  color: royalblue
+}
+
+.link:hover {
+  color: orangered;
+}
