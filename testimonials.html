@@ -5,14 +5,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
-    <title>OT Contact</title>
+    <title>OriTech Home</title>
 
     <link href="style.css" rel="stylesheet">
+
+    <!--Display modal only on screens bigger or equal to 992px (md)-->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            //if (document.cookie.indexOf('modal_shown=') >= 0) {
+            //do nothing if modal_shown cookie is present
+            //} else {
+            if (window.innerWidth >= 992) {
+                $("#myModal").modal('show');
+            }  //show modal pop up
+            //document.cookie = 'modal_shown=seen'; //set cookie modal_shown
+            //cookie will expire when browser is closed
+            //}
+
+            //DE CAUTAT CUM UTILIZEZ COOKIE CA SA AFISEZ DOAR O DATA MODAL-ul
+
+        });
+    </script>
 
     <!--BOOTSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
+
 <body>
     <!--NAVBAR-->
     <nav class="navbar navbar-expand-md navbar-light bg-light shadow-sm">
@@ -58,10 +79,11 @@
         </div>
     </nav>
 
-    
-
-    <a href="index.html">back</a>
-
+    <!--TESTIMONIALS WIDGET-->
+    <div class="container">
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <div class="elfsight-app-e5b65758-e155-470f-a78c-6e0e0212f438"></div>
+    </div>
 
     <!--FOOTER-->
     <div class="footer container-fluid">
@@ -81,4 +103,5 @@
         crossorigin="anonymous"></script>
 
 </body>
+
 </html>
