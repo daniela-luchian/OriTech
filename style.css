@@ -104,3 +104,11 @@ and centers the content*/
 .link:hover {
   color: orangered;
 }
+
+@media (max-width: 767px) {  
+  a {font-size:2rem;} /*1rem = 16px*/
+}
+
+@media (max-width: 991px) {  
+  a {font-size:1.5rem;} /*1rem = 16px*/
+}
